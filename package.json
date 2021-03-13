@@ -1,0 +1,32 @@
+{
+  "name": "nehan-highlight",
+  "version": "0.0.1",
+  "description": "nehan plugin for code highlighting",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tategakibunko/nehan-highlight.git"
+  },
+  "keywords": [
+    "nehan",
+    "highlight",
+    "code",
+    "plugin"
+  ],
+  "author": "Watanabe Masaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tategakibunko/nehan-highlight/issues"
+  },
+  "homepage": "https://github.com/tategakibunko/nehan-highlight#readme",
+  "dependencies": {
+    "highlight.js": "^10.6.0",
+    "nehan": "^7.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
