@@ -5,10 +5,17 @@
 ## create nehan style
 
 ```typescript
+import { PagedNehanDocument, CssStyleSheet } from 'nehan';
 import * as HighlightStyle from 'nehan-highlight';
 
-const style = HighlightStyle.create({
+const hljsStyle: CssStyleSheet = HighlightStyle.create({
   selector: "pre>code"
+});
+
+const pd = new PagedNehanDocument('<pre><code class="lang-typescript">const x: string = "foo"</code></pre>', {
+  styleSheets:[
+    hljsStyle, // add highlight style!
+  ]
 });
 ```
 
