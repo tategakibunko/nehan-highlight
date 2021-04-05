@@ -2,6 +2,8 @@
 
 [nehan](https://github.com/tategakibunko/nehan) plugin for code highlight.
 
+![demo](sshot.png)
+
 ## create nehan style
 
 ```typescript
