@@ -29,7 +29,7 @@ export function create(args: DefaultArgs): CssStyleSheet {
           markup = markup.replace(/&amp;/g, "&");
         }
         // console.log(`src(lang=${lang}):${markup}`);
-        const markup2 = hljs.highlightAuto(markup, [lang]);
+        const markup2 = hljs.default.highlightAuto(markup, [lang]);
         // console.log("dst:", markup2.value);
         ctx.element.innerHTML = markup2.value;
         return {};
